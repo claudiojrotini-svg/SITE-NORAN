@@ -49,23 +49,12 @@ html {
 }
 
 body {
-    background-color: var(--bg-body); /* Cor de fundo de segurança */
+    background-color: var(--bg-body);
     color: var(--text-body);
     font-family: 'Inter', sans-serif;
     line-height: 1.6;
     overflow-x: hidden;
     -webkit-font-smoothing: antialiased;
-    
-    /* --- EFEITO DEGRADÊ DOURADO (GLOW) --- */
-    background-image: radial-gradient(
-        circle at top center,       /* O foco de luz começa no topo, centralizado */
-        rgba(207, 164, 93, 0.15) 0%, /* Dourado (Gold Primary) bem suave (15%) */
-        rgba(11, 11, 11, 0) 70%      /* Desaparece para o preto total */
-    );
-    background-attachment: fixed; /* O brilho fica parado enquanto você rola a página */
-    background-repeat: no-repeat;
-    min-height: 100vh;
-}
 }
 
 .container {
@@ -641,3 +630,4 @@ p { margin-bottom: 1.5rem; font-weight: 300; }
     }
 
 }
+
