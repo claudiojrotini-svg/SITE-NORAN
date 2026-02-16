@@ -225,24 +225,21 @@
                 </div>
                 
                 <form id="contact-form" class="reveal-up" style="margin-top: 2rem; display: flex; flex-direction: column; gap: 1rem;">
-                    
-                    <input type="text" id="name" placeholder="Nome Completo" required 
-                           style="width: 100%; padding: 1rem; background: var(--bg-surface); border: 1px solid var(--border-subtle); color: white; border-radius: var(--radius-btn);">
-                    
-                    <input type="email" id="email" placeholder="Melhor E-mail" required 
-                           style="width: 100%; padding: 1rem; background: var(--bg-surface); border: 1px solid var(--border-subtle); color: white; border-radius: var(--radius-btn);">
-                    
-                    <input type="tel" id="whatsapp" placeholder="WhatsApp (DDD)" required 
-                           style="width: 100%; padding: 1rem; background: var(--bg-surface); border: 1px solid var(--border-subtle); color: white; border-radius: var(--radius-btn);">
-                    
-                    <select name="faturamento" required 
-                            style="width: 100%; padding: 1rem; background: var(--bg-surface); border: 1px solid var(--border-subtle); color: #888; border-radius: var(--radius-btn);">
-                        <option value="" disabled selected>Faturamento Mensal Atual</option>
-                        <option value="ate-50k">Até R$ 50k</option>
-                        <option value="50k-100k">R$ 50k - R$ 100k</option>
-                        <option value="100k-500k">R$ 100k - R$ 500k</option>
-                        <option value="acima-500k">Acima de R$ 500k</option>
-                    </select>
+    
+    <input type="text" id="name" placeholder="Nome Completo" required 
+           style="width: 100%; padding: 1rem; background: var(--bg-surface); border: 1px solid var(--border-subtle); color: white; border-radius: var(--radius-btn); outline: none;">
+    
+    <input type="email" id="email" placeholder="Melhor E-mail Corporativo" required 
+           style="width: 100%; padding: 1rem; background: var(--bg-surface); border: 1px solid var(--border-subtle); color: white; border-radius: var(--radius-btn); outline: none;">
+    
+    <input type="tel" id="whatsapp" placeholder="WhatsApp (DDD)" required 
+           style="width: 100%; padding: 1rem; background: var(--bg-surface); border: 1px solid var(--border-subtle); color: white; border-radius: var(--radius-btn); outline: none;">
+    
+    <textarea id="message" placeholder="Conte sobre sua empresa (Nicho, desafios atuais e meta de crescimento...)" rows="4" required 
+              style="width: 100%; padding: 1rem; background: var(--bg-surface); border: 1px solid var(--border-subtle); color: white; border-radius: var(--radius-btn); outline: none; resize: vertical; font-family: 'Inter', sans-serif;"></textarea>
+
+    <button type="submit" class="btn btn--gold" style="width: 100%; margin-top: 1rem;">Solicitar Diagnóstico</button>
+</form>
 
                     <button type="submit" class="btn btn--gold" style="width: 100%; margin-top: 1rem;">Solicitar Diagnóstico</button>
                 </form>
@@ -274,4 +271,5 @@
 
     <script src="script.js"></script>
 </body>
+
 </html>
